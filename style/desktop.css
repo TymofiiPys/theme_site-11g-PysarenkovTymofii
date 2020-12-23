@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    height: 800px;
+}
+.header{
+    width:calc(100%-70px);
+    position: relative;
+    padding: 35px;
+}
+.logo{
+    width:100px;
+    height: 50px;
+    background-size:cover;
+    background-image: url("../img/download.png");
+}
+nav {
+    width: calc(100% - 50px);
+    position: relative;
+    padding: 25px 25px 10px 25px;
+    position: fixed;
+    z-index: 9;
+}
+.burger {
+    display: none;
+}
+input[type="checkbox"]  {
+    display: none;
+}
+.menu{
+    color:white;
+    font-family: Tahoma;
+    font-size: 24px;
+    position: absolute;
+    right:100px;
+    top:40px;
+}
+.menu-item{
+    font-size: 24px;
+    display: inline;
+    margin: 0px 30px 0px 30px;
+}
+.album{
+    margin: 50px;
+    width: 100%;
+    background-color: grey; 
+    border-radius: 25px;  
+    margin-top:50px;
+    margin-bottom: 50px;
+    transition-property: unset;
+    transition-duration:  1s;
+    display: inline-block;
+    flex: 1 0 24%;
+    box-shadow: 0px 0px 5px 5px #a1a1a1;
+    overflow: hidden;
+}
+/* .album:hover{
+    box-shadow: 0px 0px 60px grey;
+    transform: scale(1.05);
+} */
+.apic{
+    height: 300px;
+    width:100%;
+    display: block;
+    transition: transform 400ms ease-out;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+.apic:hover{
+    transform: scale(1.15);
+}
+.ainfo{
+    background-color: grey;  
+    font-family: Tahoma;
+    font-size: 28px;
+    border-radius: 0px 0px 25px 25px;
+    padding:25px;s
+}
+.album-title{
+    font-size: 20px;
+    color:white;
+}
+.album-year{
+    font-size:16px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.alpic{
+    margin:50px;
+    height:600px;
+    width:600px;
+    background-size: cover;
+    border-radius: 25px;
+}
+h1{
+    color:white;
+    font-family: Tahoma;
+}
+h2{
+    color:white;
+    font-family: Tahoma;
+}
+.descr{
+    color:white;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.al{
+    height: 600px;
+}
+.tracks{
+    color:white;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.alabout{
+    position: relative;
+    top:-650px;
+    left:700px;
+    width: 50%;
+    height:800px;
+}
+.albumgallery{
+    display: flex;
+	flex-wrap: wrap;
+}
